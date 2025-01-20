@@ -1,14 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App"; // App.js에서 컴포넌트 가져오기
+import ReactDOM from "react-dom/client"; // react-dom/client에서 import 해야 함
+
+import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root") // index.html의 <div id="root"></div>에 렌더링
-);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
 
 reportWebVitals();
