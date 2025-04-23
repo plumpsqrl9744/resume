@@ -131,6 +131,77 @@ export default function Project() {
       <Text
         size="3xl"
         bold={true}
+        href="https://aston-martin-registration-s2pl.vercel.app/"
+        margin={"20px"}
+      >
+        Aston Martin Registration<i class="bi bi-link-45deg"></i>
+      </Text>
+      <Text size="lg" margin={"50px"}>
+        * Aston Martin 차량 소유주 대상 설문조사 및 등록 플랫폼
+      </Text>
+      <ul>
+        <Text size="2xl" bold={true} margin={"30px"}>
+          Contributions
+        </Text>
+        <Text size="xl" margin={"20px"}>
+          • Google Spreadsheet 연동을 통한 데이터 자동화
+        </Text>
+        <li>
+          <Text size="lg" margin={"15px"}>
+            <strong>Google Sheets API</strong>를 활용하여 설문조사 제출 시{" "}
+            <strong>데이터가 자동으로 스프레드시트에 기록</strong>되도록 구현
+          </Text>
+        </li>
+        <li>
+          <Text size="lg" margin={"40px"}>
+            데이터 수집 및 관리 프로세스를 자동화하여{" "}
+            <strong>업무 효율성을 향상</strong>및 인적 오류 가능성을 제거
+          </Text>
+        </li>
+
+        <Text size="xl" margin={"20px"}>
+          • 반응형 설문조사 폼 UI/UX 디자인 및 개발
+        </Text>
+        <li>
+          <Text size="lg" margin={"15px"}>
+            <strong>Figma를 활용한 전체 페이지 디자인</strong>을 직접 진행하고,{" "}
+            <strong>모바일 환경을 고려한 반응형 레이아웃</strong> 구현
+          </Text>
+        </li>
+        <li>
+          <Text size="lg" margin={"40px"}>
+            사용자 편의성을 고려한 <strong>단계별 설문 구조</strong>와{" "}
+            <strong>직관적인 인터페이스</strong>를 설계하여 응답률 향상에 기여
+          </Text>
+        </li>
+
+        <Text size="2xl" bold={true} margin={"30px"}>
+          Stack
+        </Text>
+        <li>
+          <Text size="xl" margin={"20px"}>
+            <strong>Frontend:</strong> Next.js, TypeScript, TailwindCSS
+          </Text>
+        </li>
+        <li>
+          <Text size="xl" margin={"20px"}>
+            <strong>Libraries:</strong> React Hook Form
+          </Text>
+        </li>
+        <li>
+          <Text size="xl" margin={"20px"}>
+            <strong>API Integration:</strong> Google Sheets API
+          </Text>
+        </li>
+        <li>
+          <Text size="xl" margin={"150px"}>
+            <strong>Collaboration:</strong> Figma
+          </Text>
+        </li>
+      </ul>
+      <Text
+        size="3xl"
+        bold={true}
         href="https://github.com/Techie006/FE"
         margin={"20px"}
       >
