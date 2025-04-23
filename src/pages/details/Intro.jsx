@@ -7,6 +7,55 @@ import Text from "../../component/atom/Text";
 export default function Intro() {
   return (
     <IntroSection>
+      <div>
+        <Title margin="25px">Introduce</Title>
+        <Text size="xl" margin={"15px"}>
+          ⚡ AI 도구를 전략적으로 활용하는 문제 해결형 개발자
+        </Text>
+
+        <Text size="lg">
+          빠르게 변화하는 시장 흐름에 민감하게 반응하며,{" "}
+          <strong>최신 기술을 빠르게 습득하고 실무에 적용</strong>합니다.
+          반복적이고 구조화된 작업은 AI 툴과 외부 API로 자동화해 효율을
+          극대화하고, 복잡한 로직이나{" "}
+          <strong>
+            성능 병목 등 AI가 해결할 수 없는 문제는 직접 분석해 해결
+          </strong>
+          합니다. 자동화와 엔지니어링 사이의 균형을 통해,{" "}
+          <strong>단순 구현을 넘어 구조적 문제를 해결하는 개발자</strong>
+          입니다.
+          <br></br>
+          <br></br>이전 직장에서 MCP를 활용해 웹 크롤링과 결합하여 최신 기술
+          정보를 실시간으로 적용했습니다. 이를 통해 Cursor 검색 결과를 더
+          정확하고 관련성 높은 정보로 개선, 업무 효율성과 속도를 크게
+          향상시켰습니다. 이 변화는 팀원들의 업무 능률을 높이는 데 중요한 역할을
+          했습니다.
+        </Text>
+        <br></br>
+        <br></br>
+        <Text size="xl" margin={"15px"}>
+          🧠 문제 해결에 집중하는 소프트웨어 엔지니어
+        </Text>
+        <Text size="lg" margin={"25px"}>
+          단순히 코드를 작성하는 개발자가 아닌, 문제를 분석하고 최적의 해결책을
+          구현하는 소프트웨어 엔지니어입니다.{" "}
+          <strong>
+            UI 구조나 렌더링 문제, 성능 이슈 등 복잡한 문제를 분석하고 직접 해결
+          </strong>
+          하는 데 집중합니다. 동시에,{" "}
+          <strong>
+            사내 리소스(인력, 시간, 기술력)를 기반으로 가장 적합한 해결 방안을
+            모색
+          </strong>
+          하고 이를 적용하여 기술적 해결뿐만 아니라 효율적인 리소스 관리에도
+          능숙합니다.{" "}
+          <strong>
+            기술적인 접근뿐만 아니라, 유연하게 변화하는 상황에 적응하고 문제를
+            해결하는 능력을 갖춘 개발자
+          </strong>
+          로서, 팀과 조직의 목표 달성에 기여합니다.
+        </Text>
+      </div>
       <LinkedSection>
         <div>
           <TitleWithText
@@ -23,73 +72,6 @@ export default function Intro() {
           />
         </div>
       </LinkedSection>
-      <div>
-        <Title margin="25px">Introduce</Title>
-        <Text size="xl" margin={"15px"}>
-          협력과 성장을 지향하는 개발자
-        </Text>
-        <ul>
-          <li>
-            <Text size="lg">
-              처음 접한 PHP, Laravel, jQuery 환경에서 어려움을 극복하기 위해
-              <strong>동료들과 퇴근 후 스터디를 주도</strong>하여, 약 한 달 만에{" "}
-              <strong>
-                실제 서비스 개발에 착수할 수 있도록 팀의 역량을 함께 향상
-              </strong>
-              시켰습니다.
-            </Text>
-          </li>
-          <li>
-            <Text size="lg" margin={"25px"}>
-              서비스 개발 과정에서 부족한 JavaScript 역량을 보완하기 위해{" "}
-              <strong>외부 스터디를 주최</strong>했습니다. 이를 통해 동료들과
-              함께 학습하며 실력을 쌓았고,{" "}
-              <strong>성장의 기회를 스스로 만들어갔습니다.</strong>
-            </Text>
-          </li>
-        </ul>
-        <Text size="xl" margin={"15px"}>
-          목표 지향적인 개발자
-        </Text>
-        <ul>
-          <li>
-            <Text size="lg" margin={"25px"}>
-              <strong>주 평균 80시간 이상 개발</strong>하며,{" "}
-              <strong>기간이 정해져 있는 국가 지원 프로젝트</strong>에서 목표
-              달성을 위해{" "}
-              <strong>
-                책임감을 가지고 꾸준히 주어진 문제를 해결하는 개발자
-              </strong>
-              입니다. <strong>목표를 향한 집념과 책임감</strong>으로 어려운 상황
-              속에서도 문제를 해결하며 프로젝트를 완수해왔습니다.
-            </Text>
-          </li>
-        </ul>
-        <Text size="xl" margin={"15px"}>
-          효율적 개발 환경을 지향하는 개발자
-        </Text>
-        <ul>
-          <li>
-            <Text size="lg">
-              <strong>GitHub Issue을 적극 활용해</strong> 작업 내역을 기록하고,
-              팀원 간의 협업을 효율적이고 체계적으로 관리했습니다.
-            </Text>
-          </li>
-          <li>
-            <Text size="lg">
-              <strong>ESLint, Prettier, husky를 적용해</strong> Git과 코드
-              컨벤션을 설정하여
-              <strong>일관된 코드 스타일과 코드 품질을 유지</strong>했습니다.
-            </Text>
-          </li>
-          <li>
-            <Text size="lg" margin={"50px"}>
-              GitHub Action을 활용하여 푸시 이벤트 발생 시 Telegram 알림을 통해
-              작업 내역을 실시간으로 확인할 수 있는 환경을 구축했습니다.
-            </Text>
-          </li>
-        </ul>
-      </div>
     </IntroSection>
   );
 }
