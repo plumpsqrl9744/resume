@@ -199,13 +199,8 @@ export default function Project() {
           </Text>
         </li>
       </ul>
-      <Text
-        size="3xl"
-        bold={true}
-        href="https://github.com/Techie006/FE"
-        margin={"20px"}
-      >
-        Frigo<i class="bi bi-link-45deg "></i>
+      <Text size="3xl" bold={true} margin={"20px"}>
+        Frigo
       </Text>
       <Text size="lg" margin={"50px"}>
         * 냉장고 속 재료를 활용해 맞춤형 레시피를 추천하고 재고 관리를 돕는
