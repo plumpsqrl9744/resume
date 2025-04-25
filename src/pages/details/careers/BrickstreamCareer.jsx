@@ -47,92 +47,6 @@ export const BrickstreamCareer = () => {
         ],
       },
       {
-        title: "브릭스트림 메인 웹",
-        subtitle: "(Corporate Website)",
-        description: [
-          {
-            content:
-              "* 블록체인 및 Web3 기술을 기반으로 하는 회사의 소개와 비전을 제공하는 반응형 웹사이트",
-            contentSize: "lg",
-            margin: "70px",
-          },
-        ],
-        achievements: [
-          {
-            title: "웹사이트 전체 개발 및 메일 발송 프로세스 효율화",
-            items: [
-              {
-                content:
-                  "블록체인 및 Web3 회사 컨셉에 맞춰 전체 페이지의 <strong>디자인 및 기획</strong>을 진행하고, <strong>반응형 웹사이트 개발</strong>",
-                margin: "10px",
-              },
-              {
-                content:
-                  "<strong>Google Mail API</strong>를 활용한 메일 발송 프로세스 효율화",
-                margin: "20px",
-              },
-              {
-                content:
-                  "개인 노션 페이지를 활용한 체계적인 기획 문서화 및 프로젝트 관리",
-                margin: "40px",
-              },
-            ],
-          },
-        ],
-        stacks: [
-          {
-            category: "Frontend",
-            items: "Next.js, TypeScript, TailwindCSS",
-          },
-          {
-            category: "API Integration",
-            items: "Google Mail API",
-          },
-          {
-            category: "Tools",
-            items: "Notion, Figma",
-          },
-        ],
-      },
-      {
-        title: "Plastic Hero Bridge",
-        projectLink: "https://bridge.plasticherocoin.com/",
-        description: [
-          {
-            content: "* 플라스틱 재활용 관련 암호화폐 스왑 플랫폼",
-            contentSize: "lg",
-            margin: "70px",
-          },
-        ],
-        achievements: [
-          {
-            title: "Web3 기반 프론트엔드 개발",
-            items: [
-              {
-                content:
-                  "페이지 전체 <strong>디자인 및 프론트엔드 개발</strong>",
-                margin: "10px",
-              },
-              {
-                content:
-                  "<strong>MetaMask SDK</strong> 연동 및 반응형 작업 구현",
-                margin: "70px",
-              },
-            ],
-          },
-        ],
-        stacks: [
-          {
-            category: "Frontend",
-            items: "Next.js, TypeScript, TailwindCSS, Web3.js",
-          },
-          {
-            category: "Styling",
-            items: "TailwindCSS",
-          },
-        ],
-      },
-      {
         title: "Storynation",
         subtitle: "(AI Character Chat Platform)",
         projectLink: "https://www.storynation.co.kr/",
@@ -177,6 +91,92 @@ export const BrickstreamCareer = () => {
           {
             category: "API Integration",
             items: "Figma API",
+          },
+        ],
+      },
+      {
+        title: "Plastic Hero Bridge",
+        projectLink: "https://bridge.plasticherocoin.com/",
+        description: [
+          {
+            content: "* 플라스틱 재활용 관련 암호화폐 스왑 플랫폼",
+            contentSize: "lg",
+            margin: "70px",
+          },
+        ],
+        achievements: [
+          {
+            title: "Web3 기반 프론트엔드 개발",
+            items: [
+              {
+                content:
+                  "페이지 전체 <strong>디자인 및 프론트엔드 개발</strong>",
+                margin: "10px",
+              },
+              {
+                content:
+                  "<strong>MetaMask SDK</strong> 연동 및 반응형 작업 구현",
+                margin: "70px",
+              },
+            ],
+          },
+        ],
+        stacks: [
+          {
+            category: "Frontend",
+            items: "Next.js, TypeScript, TailwindCSS, Web3.js",
+          },
+          {
+            category: "Styling",
+            items: "TailwindCSS",
+          },
+        ],
+      },
+      {
+        title: "브릭스트림 메인 웹",
+        subtitle: "(Corporate Website)",
+        description: [
+          {
+            content:
+              "* 블록체인 및 Web3 기술을 기반으로 하는 회사의 소개와 비전을 제공하는 반응형 웹사이트",
+            contentSize: "lg",
+            margin: "70px",
+          },
+        ],
+        achievements: [
+          {
+            title: "웹사이트 전체 개발 및 메일 발송 프로세스 효율화",
+            items: [
+              {
+                content:
+                  "블록체인 및 Web3 회사 컨셉에 맞춰 전체 페이지의 <strong>디자인 및 기획</strong>을 진행하고, <strong>반응형 웹사이트 개발</strong>",
+                margin: "10px",
+              },
+              {
+                content:
+                  "<strong>Google Mail API</strong>를 활용한 메일 발송 프로세스 효율화",
+                margin: "20px",
+              },
+              {
+                content:
+                  "개인 노션 페이지를 활용한 체계적인 기획 문서화 및 프로젝트 관리",
+                margin: "40px",
+              },
+            ],
+          },
+        ],
+        stacks: [
+          {
+            category: "Frontend",
+            items: "Next.js, TypeScript, TailwindCSS",
+          },
+          {
+            category: "API Integration",
+            items: "Google Mail API",
+          },
+          {
+            category: "Tools",
+            items: "Notion, Figma",
           },
         ],
       },
